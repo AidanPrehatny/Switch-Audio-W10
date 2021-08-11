@@ -8,3 +8,4 @@
 
 <p align="center"><img src="https://github.com/AidanPrehatny/Switch-Audio-W10/blob/master/img/notifytoast.png?raw=true"></p>
 
+### Simple Windows10 Toast notification that indicates that a swap occurred.

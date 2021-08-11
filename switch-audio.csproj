@@ -1,13 +1,35 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net4.5.1</TargetFramework>
+    <!-- <TargetFramework>net4.5.1</TargetFramework> -->
+    <TargetFramework>net4.8</TargetFramework>
     <RootNamespace>switch_audio</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+
+    <PackageReference Include="Microsoft.WindowsAPICodePack-Core" Version="1.1.0.2" />
+
+    <PackageReference Include="Microsoft.WindowsAPICodePack-Shell" Version="1.1.0" />
+
+    <PackageReference Include="WindowsAPICodePack-Core" Version="1.1.1" />
+
+    <PackageReference Include="WindowsAPICodePack-Shell" Version="1.1.1" />
+
+    <PackageReference Include="WindowsAPICodePack-ShellExtensions" Version="1.1.1" />
+
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime" />
+    <Reference Include="Windows">
+      <HintPath>..\..\..\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Annotated\Windows.winmd</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+
+
     <PackageReference Include="AudioSwitcher.AudioApi.CoreAudio" Version="4.0.0-alpha5" />
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="6.1.1" />
   </ItemGroup>
 
 </Project>
